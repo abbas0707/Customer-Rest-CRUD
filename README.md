@@ -20,7 +20,8 @@ Running the application
 
 3- Run "mvn install" on command line
 
-4- Run below command
+4- After successfull resutls from mvn install run below command to deploy the application on build tomcate
+
 mvn spring-boot:run
 
 5- The rest API deployed on default port of springboot 8080, it can be accessed as 
