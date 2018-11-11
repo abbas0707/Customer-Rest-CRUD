@@ -28,4 +28,6 @@ mvn spring-boot:run
 
 http://localhost:8080/listCustomers
 
+6- /listCustomer getting the data from JSON file under Resources/data folder, There is only one default record is there,
+
 
