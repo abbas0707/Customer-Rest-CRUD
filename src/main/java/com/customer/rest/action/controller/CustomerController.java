@@ -24,7 +24,7 @@ private static Log logger = LogFactory.getLog(CustomerController.class);
 	public List<Customer> getCustomers() throws Exception {	
 		logger.info("Request received for /listCustomers");
 		List<Customer> customers = customerSerice.findAllCustomers();
-		logger.info("Response for /listCustomers, Total Customers: "+customers.size());
+		//logger.info("Response for /listCustomers, Total Customers: "+customers.size());
 		return customers;
 		
 	}
